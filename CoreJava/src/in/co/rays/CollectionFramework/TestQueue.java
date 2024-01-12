@@ -11,6 +11,12 @@ public class TestQueue {
 		a.add("pooja");
 		a.add("jawariya");
 		a.add(2.0);
+		a.add(10);
+		a.add(30);
+		a.add(40);
+		a.add("kalll");
+		a.add(2.00000);
+	
 		System.out.println(a);
 		
 		
