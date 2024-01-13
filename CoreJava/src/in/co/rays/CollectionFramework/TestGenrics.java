@@ -14,9 +14,14 @@ public class TestGenrics {
 		System.out.println(str);
 		Iterator<String>it=s.iterator();
 			while (it.hasNext()) {
-				System.out.println(it.next());
-				
-			}
+			System.out.println(it.next());
+		
+		
+			
+			
+			
+		}
+		
 		}
 		
 	}
