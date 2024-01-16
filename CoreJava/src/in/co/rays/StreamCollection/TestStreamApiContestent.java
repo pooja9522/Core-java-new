@@ -1,7 +1,9 @@
 package in.co.rays.StreamCollection;
 
 import java.util.ArrayList;
+
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,9 +24,9 @@ public class TestStreamApiContestent {
 		
 	list.stream().map(e->e.phone).filter(e->e.length()==10).collect(Collectors.collectingAndThen(Collectors.toList(),e->{
 		
-		Collection.shuffle(e);
+		Collections.shuffle(e);
 		
-		return e.Stream();})).limit(2).forEach(e->{
+		return e.stream();})).limit(2).forEach(e->{
 			System.out.println(e);
 		});
 		
