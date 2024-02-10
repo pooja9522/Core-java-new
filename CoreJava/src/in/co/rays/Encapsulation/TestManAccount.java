@@ -11,7 +11,7 @@ public class TestManAccount {
 		System.out.println("emails"+"= "+M.getEmails());
 		System.out.println("Accountnum"+" ="+M.getAccountnum());
 		System.out.println("Amount"+"= "+M.getAmount());
-		
+	
 	}
 
 }

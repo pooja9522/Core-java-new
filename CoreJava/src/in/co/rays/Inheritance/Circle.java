@@ -1,6 +1,6 @@
 package in.co.rays.Inheritance;
 
-public class Circle {
+public class Circle extends Shape {
 	private int radius=0;
 	private int diametar=0;
 	

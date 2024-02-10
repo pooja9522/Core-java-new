@@ -10,7 +10,7 @@ public class TestPerson {
 		p.setAddress("new busstand awantipur barodiya");
 		Date d= new Date();
 		System.out.println(d);
-		SimpleDateFormat abc=new SimpleDateFormat("26/01/2023");
+		SimpleDateFormat abc=new SimpleDateFormat("dd/MM/yyyy");
 	    String g=abc.format(d);
 		System.out.println(p.getName());
 		System.out.println(p.getAddress());

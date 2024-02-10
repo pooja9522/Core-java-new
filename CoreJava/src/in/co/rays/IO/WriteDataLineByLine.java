@@ -1,6 +1,7 @@
 package in.co.rays.IO;
 
 import java.io.FileWriter;
+
 import java.io.PrintWriter;
 
 public class WriteDataLineByLine {

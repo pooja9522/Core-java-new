@@ -39,8 +39,8 @@ public class TestCollection {
 	//	System.out.println(c1.isEmpty());
 	//c1.contains(c1);
 	//System.out.println(c1);
-	//c2.iterator();
-	//System.out.println(c2);
+	c2.iterator();
+	System.out.println(c2);
 	  //  c1.retainAll(c1);
 		//System.out.println(c1.retainAll(c1));
 		//c1.size();

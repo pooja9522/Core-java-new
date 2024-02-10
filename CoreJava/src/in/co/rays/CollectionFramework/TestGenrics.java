@@ -10,8 +10,9 @@ public class TestGenrics {
 		s.add("pooja");
 		s.add("vikash");
 		s.add("pritee");
-		String str=s.get(0);
-		System.out.println(str);
+		//String str=s.get(0);
+		//System.out.println(str);
+		System.out.println(s.get(0));
 		Iterator<String>it=s.iterator();
 			while (it.hasNext()) {
 			System.out.println(it.next());

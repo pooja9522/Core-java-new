@@ -17,7 +17,7 @@ public class TestInter {
 		rm.earn();
 		rm.party();
 		rm.donation();
-		System.out.println( "money");
+		System.out.println("money");
 		
 	}
 	

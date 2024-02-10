@@ -13,7 +13,7 @@ public class Missingno {
 				
 			}
 			for (int j = 0; j < b.length; j++) {
-				sum= sum1+b[j];
+				sum1= sum1+b[j];
 			}
 			System.out.println(sum-sum1);
 			

@@ -14,21 +14,14 @@ public class Fibonachiseries {
 			b=c;
 			
 			System.out.println(c);
-					
-			
-			
+							
 		
 		}
 		System.out.println(b);
 		
 			
+	}			
 			
-			
-		}
-		
-		
-		
-		
-	}
+}
 
 
